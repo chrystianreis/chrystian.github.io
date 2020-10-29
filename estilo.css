@@ -1,0 +1,185 @@
+body{
+    background-color:white;
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color: olivedrab;
+    color: #020220;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 60px;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.lado{
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+}
+.lado:hover{
+    background-color: white;
+    color: #020220;
+}
+#capa{
+    background:url(imagens/pexels-tyler-lastovich-850674.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    height: 590px;
+    padding-top: 6%;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: #020220;
+    font-family: unset;
+}
+.titulo{
+    text-align: center;
+    font-family: cursive;
+    font-size:x-large;
+    color: #020220;
+}
+.texto{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#img1, #img2, #img3, #img4{
+    width: 430px;
+}
+#img3{
+    float: left;
+    padding-right: 400px;
+    padding-left: 50px;
+}
+.icone{
+    width: 70px;
+}
+#conclusao{
+    padding-bottom: 50px;
+}
+#sobre{
+    float: left;
+    background-color:rgba(255, 230, 0, 0.479);;
+    text-align: justify;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 239px;
+}
+#um,#dois{
+    float: right;
+    text-align: justify;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.esse{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#maio{
+    padding-right: 1000px;
+}
+#menor{
+    padding-left: 140px;
+}
+.empurra{
+    padding-left: 380px;
+    padding-bottom: 10px;
+}
+#img1, #img2{
+    padding-left: 430px;
+}
+#como{
+    background-color: rgba(255, 250, 250, 0.842);
+}
+
+@media screen and (max-width:770px){
+    
+#menu{
+   visibility: hidden;
+}
+.texto, .coluna{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+    display: block;
+    box-sizing: border-box;
+    text-align: justify;
+}
+h1{
+    padding-top: 10px;
+}
+#um, #dois{
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+    float: none;
+    display: block;
+    box-sizing: border-box;
+
+}
+.empurra{
+    float: none;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 0;
+}
+#video1, #video2{
+    width: 300px;
+    height: 200px;
+}
+#img1,#img2{
+    width:300px;
+    float: none;
+    padding-top: 15px;
+    margin: 20px;
+    padding: 0;
+}
+#img3, #img4{
+    width:300px;
+    float: none;
+    padding-top: 15px;
+    margin: 20px;
+}
+#img3{
+    margin:0;
+    padding-left:20px;
+}
+#img1{
+    padding-right: 35px;
+    margin: 0;
+}
+#maio{
+    padding-left: 150px;
+}
+#um, .dois{
+    margin: 0;
+    padding: 0;
+}
+.dois{
+    background-color: #FFE60079;
+}
+#capa{
+    height: 300px;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #020220;
+}
+}
+
